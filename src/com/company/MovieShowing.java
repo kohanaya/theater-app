@@ -4,7 +4,11 @@ import java.util.Date;
 
 public class MovieShowing {
 
-    public Date showingDateTime;
-    public Movie movie;
-    
+    public String showingDateTime;
+    public String movieName;
+
+    public MovieShowing(String movieName, String date) {
+        this.movieName = movieName;
+        this.showingDateTime = date;
+    }
 }

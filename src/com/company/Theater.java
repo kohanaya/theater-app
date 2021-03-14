@@ -1,23 +1,14 @@
 package com.company;
 
-import java.util.List;
-
 public class Theater {
 
-    public Theater() {
+    private String name;
 
+    public Theater(String name) {
+        this.name = name;
     }
 
-    public void listMovies() {
-
+    public String getName() {
+        return name;
     }
-
-    public void addMovie() {
-
-    }
-
-    public void removeMovie() {
-
-    }
-
 }
